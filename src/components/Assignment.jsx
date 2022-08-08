@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Assignment = () => {
-    const date = new Date(2019, 1, 1, 18);
+    const date = new Date();
     const currentDate = date.getHours()
     let greeting;
 
