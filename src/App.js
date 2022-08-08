@@ -1,11 +1,10 @@
 import './App.css';
-import Assignment from './components/Assignment';
+import Heading from './components/Heading';
 
 function App() {
- 
-  return (
+  return(
     <div>
-     <Assignment />
+      <Heading />
     </div>
   );
 }
