@@ -1,13 +1,15 @@
 import './App.css';
 
 function App() {
-  const name = 'Angela'
-  const number = 7
+  const fName = 'Angela Yu'
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
 
   return (
     <div className="App">
-      <h1>Hello {name}!</h1>
-      <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
+      <h1>Created by {fName}</h1>
+      <p>CopyRight {year}</p>
+
     </div>
   );
 }
