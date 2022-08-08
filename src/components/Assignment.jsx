@@ -15,7 +15,7 @@ const Assignment = () => {
 
   return (
     <div>
-        <h1>{greeting}</h1>
+        <h1 className='heading'>{greeting}</h1>
     </div>
   )
 }
