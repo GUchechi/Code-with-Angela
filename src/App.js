@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello {name}!</h1>
-      <p>Your lucky number is {number}</p>
+      <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
     </div>
   );
 }
