@@ -4,4 +4,5 @@
  const triplePi = 5.141592653589793;
 
 
- export default pi;
+ export default pi
+ export {doublePi, triplePi}
