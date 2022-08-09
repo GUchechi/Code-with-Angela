@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
         <p>
-            Copyright © 
+            Copyright © {currentYear}
         </p>
     </div>
   )
