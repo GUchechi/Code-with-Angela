@@ -6,11 +6,11 @@ const Footer = () => {
 
 
   return (
-    <div>
+    <Footer>
         <p>
             Copyright © {currentYear}
         </p>
-    </div>
+    </Footer>
   )
 }
 
