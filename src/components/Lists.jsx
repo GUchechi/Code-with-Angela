@@ -6,9 +6,9 @@ const Lists = () => {
     <div>
         <ul>
             <li>{add(1 , 2)}</li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>{multiply(2,3)}</li>
+            <li>{sub(7,2)}</li>
+            <li>{divide(5,2)}</li>
         </ul>
     </div>
   )
