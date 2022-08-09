@@ -1,5 +1,5 @@
 import React from 'react'
-import Pi,{doublePi} from './Maths.js'
+import Pi,{doublePi, triplePi} from './Maths.js'
 
 const Lists = () => {
   return (
@@ -7,7 +7,7 @@ const Lists = () => {
         <ul>
             <li>{Pi}</li>
             <li>{doublePi}</li>
-            <li>Noodles</li>
+            <li>{triplePi}</li>
         </ul>
     </div>
   )
