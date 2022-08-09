@@ -6,7 +6,7 @@ const Lists = () => {
     <div>
         <ul>
             <li>{Pi}</li>
-            <li>{doublePi}</li>
+            <li>{doublePi()}</li>
             <li>{triplePi}</li>
         </ul>
     </div>
