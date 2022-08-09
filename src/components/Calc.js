@@ -15,7 +15,5 @@
  }
 
 
-
-
-
  export default add
+ export {sub, multiply, divide}
