@@ -1,4 +1,5 @@
 import React from 'react'
+import Avatar from './Avatar'
 import './Card.css'
 
 
@@ -9,10 +10,7 @@ const Card = ({name,img, telephone, email}) => {
     <div className="card">
         <div className="top">
             <h2 className="name">{name}</h2>
-            <img className="circle-img"
-            src={img}
-            alt="avatar_img"
-            />
+            <Avatar img={img} />
         </div>
         <div className="bottom">
             <p className="info">{telephone}</p>
