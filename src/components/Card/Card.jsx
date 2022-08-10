@@ -2,22 +2,24 @@ import React from 'react'
 import './Card.css'
 
 
-const Card = () => {
+const Card = ({name,img, telephone, email}) => {
   return (
+    <>
+    <h1 className="heading">My Contact</h1>
     <div className="card">
-     <h1 className="heading">My Contact</h1>
         <div className="top">
-            <h2 className="name">Beyonce</h2>
+            <h2 className="name">{name}</h2>
             <img className="circle-img"
-            src="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+            src={img}
             alt="avatar_img"
             />
         </div>
         <div className="bottom">
-            <p className="info">+123 456 789</p>
-            <p className="info">b@beyonce.com</p>
+            <p className="info">{telephone}</p>
+            <p className="info">{email}</p>
         </div>
     </div>
+    </>
   )
 }
 

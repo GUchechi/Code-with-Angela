@@ -1,6 +1,5 @@
 import './App.css';
 import Card from './components/Card/Card';
-import Contact from './components/Contact';
 // import Footer from './components/Footer';
 // import Header from './components/Header';
 // import Note from './components/Note';
@@ -11,7 +10,14 @@ function App() {
      {/* <Header />
      <Note />
      <Footer /> */} 
-     <Card />
+
+     <Card 
+        name="Beyonce"
+        img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+        telephone="+123 456 789"
+        email="b@beyonce.com"
+
+     />
     </div>
   );
 }
