@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './components/Card';
 import Contact from './components/Contact';
 // import Footer from './components/Footer';
 // import Header from './components/Header';
@@ -11,7 +12,7 @@ function App() {
      <Note />
      <Footer /> */}
      
-     
+     <Card />
     </div>
   );
 }
