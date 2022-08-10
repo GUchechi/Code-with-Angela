@@ -10,10 +10,7 @@ function App() {
     <div>
      {/* <Header />
      <Note />
-     <Footer /> */}
-     
-     <h1 className="heading">My Contact</h1>
-     
+     <Footer /> */} 
      <Card />
     </div>
   );
