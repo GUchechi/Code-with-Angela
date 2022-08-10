@@ -5,6 +5,7 @@ import './Card.css'
 const Card = () => {
   return (
     <div className="card">
+     <h1 className="heading">My Contact</h1>
         <div className="top">
             <h2 className="name">Beyonce</h2>
             <img className="circle-img"
