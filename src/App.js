@@ -1,7 +1,8 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Note from './components/Note';
+import Contact from './components/Contact';
+// import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Note from './components/Note';
 
 function App() {
   return(
@@ -10,6 +11,7 @@ function App() {
      <Note />
      <Footer /> */}
      
+     <Contact />
     </div>
   );
 }
