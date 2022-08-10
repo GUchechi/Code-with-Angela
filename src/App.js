@@ -12,6 +12,8 @@ function App() {
      <Note />
      <Footer /> */}
      
+     <h1 className="heading">My Contact</h1>
+     
      <Card />
     </div>
   );
