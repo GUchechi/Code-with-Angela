@@ -1,5 +1,5 @@
 import './App.css';
-import Card from './components/Card';
+import Card from './components/Card/Card';
 import Contact from './components/Contact';
 // import Footer from './components/Footer';
 // import Header from './components/Header';
