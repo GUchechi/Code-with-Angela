@@ -11,7 +11,7 @@ function App() {
      <Note />
      <Footer /> */}
      
-     <Contact />
+     
     </div>
   );
 }
