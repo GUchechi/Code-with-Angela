@@ -11,7 +11,7 @@ function App() {
      {/* <Header />
      <Note />
      <Footer /> */} 
-
+    
      <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}

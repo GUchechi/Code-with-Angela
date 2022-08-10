@@ -7,6 +7,9 @@ const Card = ({name,img, telephone, email}) => {
   return (
     <>
     <h1 className="heading">My Contact</h1>
+    <Avatar 
+      img="https://pbs.twimg.com/profile_images/1523987597751726081/XuQeo7gC_400x400.jpg"
+    />
     <div className="card">
         <div className="top">
             <h2 className="name">{name}</h2>
