@@ -1,9 +1,6 @@
 import './App.css';
 import Card from './components/Card/Card';
 import contacts from './components/Contact'
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-// import Note from './components/Note';
 
 
 const createCard = (contact) =>{
@@ -21,9 +18,6 @@ const createCard = (contact) =>{
 function App() {
   return(
     <div>
-     {/* <Header />
-     <Note />
-     <Footer /> */} 
 
      {contacts.map(createCard)}
     
